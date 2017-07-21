@@ -1,6 +1,6 @@
 const express        = require('express');
 const expressLayouts = require('express-ejs-layouts');
-const monggose       = require('mongoose');
+const mongoose       = require('mongoose');
 const bluebird       = require('bluebird');
 const { port, db }   = require('./config/env');
 const routes         = require('./config/routes');
